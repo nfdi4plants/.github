@@ -18,4 +18,4 @@ DataPlant will allow users to store their data in form of an annotated research 
 This includes not only the measurement data, but also (meta)data annotations, tools, and scripts. 
 This will allow reproducibility plus to forward “raw data” and metadata slices to public repositories (e.g. EBI NCBI etc.).
 
-More info at https://www.nfdi4plants.de/
+More info at https://www.nfdi4plants.org/
