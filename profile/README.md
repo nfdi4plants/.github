@@ -1,21 +1,42 @@
-# Hi there 👋 We are DataPLANT
+<a href="https://www.nfdi4plants.org/">
+  <img src="https://raw.githubusercontent.com/nfdi4plants/Branding/master/logos/DataPLANT/DataPLANT_logo_bg_transparent.svg" alt="DataPLANT" width="300">
+</a>
 
-![](https://github.com/nfdi4plants/Branding/raw/master/logos/DataPLANT/DataPLANT_logo_bg_transparent.svg)
+# DataPLANT
 
-## Our mission: Driving the digital change in plant science
+**Open tools and infrastructure for FAIR research data.**
 
-DataPLANT’s mission is to provide a sustainable and well annotated data management platform for plant sciences. 
-DataPLANT will pave the way from classical paper publication to pure data publication including the **Annotated Research Context (ARC)**
+We develop tools, specifications, and services that help researchers organize, describe, share, and publish their data. Rooted in fundamental plant research, DataPLANT is part of Germany's [National Research Data Infrastructure (NFDI)](https://www.nfdi.de/).
 
-## The community
-DataPlant is primarily geared towards the needs of fundamental plant research (e.g. those represented by the DFG 
-categories 202-[01 evolution and systematics of plants and animals, 04 plant physiology, 05 plant biochemistry and biophysics, 06 plant cell and developmental biology, 07 plant genetics]. 
-As such DataPlant is especially adapter to large scale data sets be it omics science or imaging and is ready to store petabaytes of annotated data.
+[Learn ARC](https://arc-rdm.org/) · [Get started](https://nfdi4plants.github.io/nfdi4plants.knowledgebase/arcitisa/) · [Knowledge Base](https://nfdi4plants.github.io/nfdi4plants.knowledgebase/) · [Get support](https://www.nfdi4plants.org/support/)
 
-## The Annotated Research Context (ARC)
+## Research data need context
 
-DataPlant will allow users to store their data in form of an annotated research context. 
-This includes not only the measurement data, but also (meta)data annotations, tools, and scripts. 
-This will allow reproducibility plus to forward “raw data” and metadata slices to public repositories (e.g. EBI NCBI etc.).
+The **Annotated Research Context (ARC)** is the framework connecting our ecosystem. It brings research data together with their **administrative, provenance, and semantic context**: who is responsible, how the data were produced, and what they mean.
 
-More info at https://www.nfdi4plants.org/
+An **ARC Workspace** lets data and metadata evolve together using tools and formats suited to a research domain. **ARC RO-Crate** provides a common publication layer that expresses this context and accommodates domain-specific descriptions.
+
+Explore the concepts, representations, and profiles at **[arc-rdm.org](https://arc-rdm.org/)**.
+
+## Explore the ecosystem
+
+| Project | What it does |
+| --- | --- |
+| [ARCitISA](https://github.com/nfdi4plants/ARCitISA) | Create and manage ARC workspaces and annotate research metadata in a desktop or web application. |
+| [ARC Commander](https://github.com/nfdi4plants/ARCCommander) | Create, manage, and share ARCs from the command line. |
+| [ARCtrl](https://github.com/nfdi4plants/ARCtrl) | Build ARC applications and integrations in .NET, JavaScript, and Python. |
+| [arc-validate](https://github.com/nfdi4plants/arc-validate) | Validate ARCs locally or in automated workflows using reusable [validation packages](https://github.com/nfdi4plants/arc-validation-package-registry). |
+| [DataHUB](https://github.com/nfdi4plants/DataHUB) | Host collaborative ARC workspaces with version control and automated validation. |
+
+Specifications and profiles: **[ISA ARC Workspace](https://github.com/nfdi4plants/ISA-ARC-Workspace)** · **[ARC RO-Crate](https://github.com/nfdi4plants/arc-ro-crate-profile)**
+
+For hosted collaboration, use [DataPLANT's public DataHUB](https://git.nfdi4plants.org/) or explore [other DataHUB instances](https://www.nfdi4plants.org/articles/arc-data-hub-instances/), including institutional installations.
+
+## Learn, contribute, and get involved
+
+Researchers, data stewards, developers, and infrastructure teams all help shape the ecosystem. Contributions include code, documentation, annotation templates, validation packages, and feedback from research practice.
+
+- **New to ARC?** Start with the [ARCitISA guide](https://nfdi4plants.github.io/nfdi4plants.knowledgebase/arcitisa/) to create workspaces and annotate your data. Explore the [Knowledge Base](https://nfdi4plants.github.io/nfdi4plants.knowledgebase/) for workflows, tutorials, and examples.
+- **Contributing to a project?** Open an issue or pull request in the relevant repository and follow its contribution guidance.
+- **Sharing knowledge?** Help improve our [guides, tutorials, and training materials](https://github.com/nfdi4plants/nfdi4plants.knowledgebase).
+- **Looking for advice or collaboration?** [Get in touch with DataPLANT](https://www.nfdi4plants.org/support/) for support, training, and data stewardship.
